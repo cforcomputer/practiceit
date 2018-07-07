@@ -23,3 +23,53 @@ public int daysInMonth(int m) {
             return 28;
     }
 }
+
+
+//Alternatively
+public static int daysInMonth(int month) {
+
+        int monthDay;
+    
+        switch (month) {
+            case 1: monthDay = 31;
+            break;
+
+            case 2: monthDay = 28;
+            break;
+
+            case 3: monthDay = 31;
+            break;
+
+            case 4: monthDay = 30;
+            break;
+
+            case 5: monthDay = 31;
+            break;
+
+            case 6: monthDay = 30;
+            break;
+
+            case 7: monthDay = 31;
+            break;
+
+            case 8: monthDay = 31;
+            break;
+
+            case 9: monthDay = 30;
+            break;
+
+            case 10: monthDay = 31;
+            break;
+
+            case 11: monthDay = 30;
+            break;
+
+            case 12: monthDay = 31;
+            break;
+
+            default: monthDay = 0;
+            break;
+        }
+    
+        return monthDay;
+    }
